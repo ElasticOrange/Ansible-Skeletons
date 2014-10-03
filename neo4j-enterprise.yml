@@ -1,5 +1,5 @@
 ---
-- include: java.yml
+- include: oracle_java7.yml
 
 - hosts: all
   roles:
