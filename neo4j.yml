@@ -1,0 +1,6 @@
+---
+- include: java.yml
+
+- hosts: all
+  roles:
+    - neo4j

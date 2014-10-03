@@ -1,0 +1,5 @@
+---
+- name: Install the oracle official runtime
+  apt: name="default-jre" state=present
+  when: ansible_distribution in [ 'Ubuntu' ]
+
